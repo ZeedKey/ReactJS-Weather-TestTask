@@ -72,7 +72,7 @@ function App() {
               ? setCities([...cities, data])
               : alert("ERROR!\nOoops! This city has been already added!");
           } else {
-            alert("ERROR!\nOoops! Unnable to find the city.");
+            alert("ERROR!\nOoops! Unable to find the city.");
           }
         })
         .catch((error) => console.log("Oops\n", error));
